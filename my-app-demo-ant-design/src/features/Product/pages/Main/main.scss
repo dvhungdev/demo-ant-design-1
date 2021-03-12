@@ -1,0 +1,12 @@
+.product-main {
+    padding: 24px;
+    overflow: auto;
+
+    &__table {
+        display: inline-grid;
+
+        grid-template-columns: auto auto auto auto auto auto;
+        grid-row-gap: 20px;
+        grid-column-gap: 20px;
+    }
+}
